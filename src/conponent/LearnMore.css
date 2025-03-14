@@ -98,6 +98,11 @@
     .learn-h1 {
         font-size: 20px;
     }
+    .learn-p {
+        font-size: 10px;
+        font-weight: 500;
+        font-family: Arial;
+    }
     .img-style {
         width: 300px;
         height: 300px;

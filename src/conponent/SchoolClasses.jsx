@@ -13,7 +13,7 @@ const SchoolClasses = () => {
   return (
     <div className="container mt-5 py-5 text-center">
         <h1 className='school-h4'><b>School Classes</b></h1>
-        <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd <br />vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        <p className='Facilities-p'>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd <br />vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
         <div className="classes-flex">
             <div>
                 <div className='school-style'><img src={classes1} alt="" className='img5'/></div>
