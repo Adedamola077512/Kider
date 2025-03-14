@@ -1,0 +1,127 @@
+.Learn-flex {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 10%; */
+    /* gap: 50px; */
+}
+.learn-h1 {
+    font-family: 'Lobster', cursive;
+    color: #103741;
+}
+.learn-p {
+    font-family: 'Lobster', cursive;
+    color: #103741;
+    font-size: 16px;
+
+}
+.img-style {
+    border: 15px solid #f5cfc7;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 6%;
+    position: absolute;
+}
+.img-style:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 15px solid #fe6e4d;
+}
+.img-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    gap: 50px;
+}
+.learn-flex {
+    display: flex;
+    gap: 30px;
+}
+.learn-btn {
+    background-color: #fe6e4d;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    /* padding: 10px 20px; */
+    border-radius: 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    cursor: pointer;
+}
+.learn-flex-2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.img3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+.learn-h6 {
+    color: #fe6e4d;
+}
+.img1 {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.img2 {
+    width: 170px;
+    height: 170px;
+    position: relative;
+    /* top: 230px; */
+    border-radius: 50%;
+}
+.img-2-style {
+    border: 15px solid #f5cfc7;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: 230px;
+}
+.img-2-style:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 15px solid #fe6e4d;
+}
+
+@media screen and (max-width: 600px) {
+    .Learn-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .learn-h1 {
+        font-size: 20px;
+    }
+    .img-style {
+        width: 300px;
+        height: 300px;
+    }
+    .img1 {
+        width: 300px;
+        height: 300px;
+    }
+    .img2 {
+        width: 120px;
+        height: 120px;
+    }
+    .img-2-style {
+        width: 150px;
+        height: 150px;
+    }
+    .img-flex {
+        margin: 0 1%;
+        gap: 0;
+    }
+    .learn-flex-2 {
+        gap: 5px;
+    }
+    .learn-pp {
+        font-size: 12px;
+    }
+}

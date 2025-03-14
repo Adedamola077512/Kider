@@ -1,0 +1,172 @@
+.carousel-bg {
+  width: 100%;
+  height: 500px; /* Adjust height as needed */
+  background-size: cover;
+  background-position: center;
+}
+.OnlineCourses {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 100%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white; /* Add a white border */
+  transition: 0.3s;
+}
+
+.carousel-control-prev {
+  top: 45%; /* Adjust position */
+}
+
+.carousel-control-next {
+  top: 60%; /* Adjust position */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100%; /* Ensure full height */
+  color: white; /* Adjust text color for visibility */
+}
+.content {
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
+  font-weight: 700;
+}
+.content-p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.slide1 {
+  background-image: url('/src/assets/carousel-1.jpg');
+  align-items: center;
+  /* display: flex; */
+  background-size: cover;
+  color: white;
+  height: 600px;
+  align-items: center;
+  /* position: relative; */
+}
+.header-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  margin: 5px;
+  background-color: #FE7555;
+  color: white;
+  border-radius: 20px;
+}
+.header-btnn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  margin: 5px;
+  background-color: #103741;
+  color: white;
+  border-radius: 20px;
+}
+
+.slide2 {
+  background-image: url('/src/assets/carousel-2.jpg');
+  align-items: center;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 600px;
+  position: relative;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .carousel-bg {
+    /* height: 200px;  */
+    /* margin-top: 30px; */
+  }
+ .carousel-caption {
+    /* font-size: 25px; */
+    top: 40%;
+    left: 55%;
+    /* margin-bottom: 0px; */
+     /* Adjust font size for smaller screens */
+  }
+  .content-p {
+    font-size: 13px;
+    /* margin-bottom: 10px; */
+  }
+ .content {
+    font-size: 29px; /* Adjust font size for smaller screens */
+  }
+  .header-btn {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .header-btnn {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .slide1 {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    /* margin-top: 0px; */
+  }
+  .carousel-control-prev{
+    display: none;
+  }
+  .carousel-control-next{
+    display: none;
+  }
+  .slide2 {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
+  .OnlineCourses {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,156 @@
+.facilities-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.Facilities-h1 {
+    font-family: 'Pacifico', cursive;
+}
+.Facilities-p {
+    font-size: 20px;
+}
+.FaBusAlt {
+    color: #FE5D37;
+    background-color: rgb(238, 203, 196);
+    height: 100px;
+    padding-top: 25px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.IoIosFootball {
+    background-color: rgb(174, 228, 203); /* Fully opaque */
+    color: #198754;
+    height: 100px;
+    padding-top: 25px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.FaHouseUser {
+    background-color: rgb(243, 243, 224); /* Fully opaque */
+    height: 100px;
+    color: yellow;
+    padding-top: 25px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.FaChalkboardTeacher {
+    background-color: rgb(194, 231, 238); 
+    height: 100px;
+    color: #21cef1;
+    padding-top: 25px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.Facilities-school-bus {
+    background-color: rgb(238, 203, 196);
+    height: 250px;
+    width: 250px;
+    padding-top: 70px;
+    border-radius: 50%;
+}
+.Facilities-h3 {
+    font-family: 'Pacifico', cursive;
+    color: #FE5D37;
+}
+.Facilities-playground-h3 {
+    font-family: 'Pacifico', cursive;
+    color: #198754;
+}
+.Facilities-healthy-canteen-h3 {
+    font-family: 'Pacifico', cursive;
+    color: yellow;
+    /* font-size: 20p; */
+}
+.Facilities-positive-learning-h3 {
+    font-family: 'Pacifico', cursive;
+    color: #21cef1;
+}
+.Facilities-playground {
+    background-color: rgb(174, 228, 203); /* Fully opaque */
+    height: 250px;
+    width: 250px;
+    padding-top: 70px;
+    border-radius: 50%;
+}
+.Facilities-healthy-canteen{
+    background-color: rgb(243, 243, 224); /* Fully opaque */
+    height: 250px;
+    width: 250px;
+    padding-top: 70px;
+    border-radius: 50%;
+}
+.Facilities-positive-learning {
+    background-color: rgb(194, 231, 238); 
+    height: 250px;
+    width: 250px;
+    padding-top: 70px;
+    border-radius: 50%;
+}
+.Facilities-school-bus:hover{
+    background-color: #FE5D37;
+    color: white;
+}
+.Facilities-school-bus:hover .Facilities-h3{
+    color: white;
+}
+.FaBusAlt:hover{
+    background-color: #FE5D37;
+    color: white;
+}
+.Facilities-playground:hover{
+    background-color: #198754;
+    color: white;
+}
+.Facilities-playground:hover .Facilities-playground-h3{
+    color: white;
+}
+.IoIosFootball:hover{
+    background-color: #198754;
+    color: white;
+}
+.Facilities-healthy-canteen:hover{
+    background-color: yellow;
+    color: white;
+}
+.Facilities-healthy-canteen:hover .Facilities-healthy-canteen-h3{
+    color: white;
+}
+.FaHouseUser:hover{
+    background-color: yellow;
+    color: white;
+}
+.FaChalkboardTeacher:hover{
+    background-color: #21cef1;
+    color: white;
+}
+.Facilities-positive-learning:hover{
+    background-color: #21cef1;
+    color: white;
+}
+.Facilities-positive-learning:hover .Facilities-positive-learning-h3{
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .facilities-flex {
+        flex-direction: column;
+        gap: 20px;
+        margin: 10px;
+    }
+    .Facilities-school-bus, .Facilities-playground, .Facilities-healthy-canteen, .Facilities-positive-learning {
+        margin: 0 auto;
+    }
+    .Facilities-p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .Facilities-school-bus, .Facilities-playground, .Facilities-healthy-canteen, .Facilities-positive-learning {
+        height: 300px;
+        width: 300px;
+        padding-top: 90px;
+    }
+}
