@@ -1,0 +1,16 @@
+.Footer {
+    background-color: #103741;
+    margin-top: 150px;
+    padding-top: 25px;
+}
+.sign-up {
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    .sign-up {
+        margin-top: 0;
+    }
+    
+}

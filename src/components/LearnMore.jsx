@@ -8,7 +8,7 @@ import about3 from '../assets/about-3.jpg'
 import user from '../assets/user.jpg'
 const LearnMore = () => {
   return (
-    <div className='container mt-5 py-5'>
+    <div className='container mt-5 py-5' data-aos="fade-up">
         <div className='Learn-flex'>
             <div>
                 <h1 className='learn-h1'><b>Learn More About Our Work And <br />Our Cultural Activities</b></h1>

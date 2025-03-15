@@ -11,10 +11,10 @@ import classes6 from '../assets/classes-6.jpg'
 import user from '../assets/user.jpg'
 const SchoolClasses = () => {
   return (
-    <div className="container mt-5 py-5 text-center">
+    <div className="container mt-5 py-5 text-center"data-aos="fade-up">
         <h1 className='school-h4'><b>School Classes</b></h1>
         <p className='Facilities-p'>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd <br />vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
-        <div className="classes-flex">
+        <div className="classes-flex" data-aos="fade-up">
             <div>
                 <div className='school-style'><img src={classes1} alt="" className='img5'/></div>
                 <div className='school-text'>
@@ -121,7 +121,7 @@ const SchoolClasses = () => {
                 </div>
             </div>
         </div>
-        <div className="classes-flex">
+        <div className="classes-flex" data-aos="fade-up">
             <div>
                 <div className='school-style'><img src={classes4} alt="" className='img5'/></div>
                 <div className='school-text'>

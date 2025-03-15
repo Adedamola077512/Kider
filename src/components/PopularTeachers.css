@@ -4,6 +4,9 @@
     margin-top: 20px;
     margin: 0 20px;
 }
+.popular-teachers {
+    margin-top: 100px;
+}
 .popular {
     font-family: 'Lobster', cursive;
     color: #103741;
@@ -32,8 +35,8 @@
     justify-items: center;
     border-radius: 50%;
     position: absolute;
-    bottom: -710%;
-    left: 23%;
+    bottom: -735%;
+    left: 25%;
     background-color: white;
     transform: translateX(-50%);
 }
@@ -45,7 +48,7 @@
     justify-items: center;
     border-radius: 50%;
     position: absolute;
-    bottom: -710%;
+    bottom: -735%;
     left: 54%;
     background-color: white;
     transform: translateX(-50%);
@@ -58,7 +61,7 @@
     justify-items: center;
     border-radius: 50%;
     position: absolute;
-    bottom: -710%;
+    bottom: -735%;
     left: 85%;
     background-color: white;
     transform: translateX(-50%);
@@ -106,7 +109,7 @@
         justify-items: center;
         border-radius: 50%;
         position: absolute;
-        bottom: -917%;
+        bottom: -933%;
         left: 60%;
         background-color: white;
         transform: translateX(-50%);
@@ -118,7 +121,7 @@
         justify-items: center;
         border-radius: 50%;
         position: absolute;
-        bottom: -965%;
+        bottom: -982%;
         left: 60%;
         background-color: white;
         transform: translateX(-50%);

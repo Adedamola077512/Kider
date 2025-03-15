@@ -3,7 +3,7 @@ import './Appointment.css'
 import appointment from '../assets/appointment.jpg'
 const Appointment = () => {
   return (
-    <div className='container'>
+    <div className='container mt-5 py-5'>
         <div className='Appointment-flex'>
             <div>
                 <h1 className='school-h4'>Make Appointment</h1>

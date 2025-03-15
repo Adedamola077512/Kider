@@ -1,28 +1,28 @@
-import './App.css'
-// import Top from './conponent/Top'
-import NavigationBar from './conponent/NavigationBar'
-import Header from './conponent/Header'
-import Facilities from './conponent/Facilities'
-import LearnMore from './conponent/LearnMore'
-import BecomeATeacher from './conponent/BecomeATeacher'
-import SchoolClasses from './conponent/SchoolClasses'
-import Appointment from './conponent/Appointment'
-import PopularTeachers from './conponent/PopularTeachers'
-function App() {
+import React from 'react';
+import { Routes, Route } from 'react-router-dom'; // ✅ No BrowserRouter here
 
+import NavigationBar from './components/NavigationBar';
+import Home from './Pages/Home';  
+import About from './Pages/About';
+import Classes from './Pages/Classes';
+import Page from './Pages/Page';
+import Contact from './Pages/Contacts';
+import Footer from './components/Footer';
+
+function App() {
   return (
     <>
-    {/* <Top />  */}
-    <NavigationBar />
-    <Header />
-    <Facilities />
-    <LearnMore />
-    <BecomeATeacher />
-    <SchoolClasses />
-    <Appointment />
-    <PopularTeachers />
+      <NavigationBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/classes" element={<Classes />} />
+        <Route path="/page" element={<Page />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -4,7 +4,7 @@ import call from '../assets/call-to-action.jpg'
 import { FaArrowRight } from "react-icons/fa";
 const BecomeATeacher = () => {
   return (
-    <div className='container mt-5 py-5'>
+    <div className='container mt-5 py-5' data-aos="fade-up">
         <div className='become-flex'>
             <div>
                 <img src={call} alt="" className='img4'/>
