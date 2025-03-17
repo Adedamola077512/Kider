@@ -1,5 +1,5 @@
 import React from 'react'
-import './Contact.css'
+import './Contacts.css'
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMailOpen } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
