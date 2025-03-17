@@ -109,7 +109,7 @@
         justify-items: center;
         border-radius: 50%;
         position: absolute;
-        bottom: -933%;
+        top: 765cap;
         left: 60%;
         background-color: white;
         transform: translateX(-50%);
@@ -121,10 +121,10 @@
         justify-items: center;
         border-radius: 50%;
         position: absolute;
-        bottom: -982%;
+        top: 801cap;
         left: 60%;
         background-color: white;
-        transform: translateX(-50%);
+        /* transform: translateX(-60%); */
     }
     .teacher-info2 {
         width: 200px;
@@ -133,7 +133,8 @@
         justify-items: center;
         border-radius: 50%;
         position: absolute;
-        bottom: -1031%;
+        top: 838cap;
+        position: fixed;
         left: 60%;
         background-color: white;
         transform: translateX(-50%);

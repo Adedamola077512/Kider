@@ -87,7 +87,8 @@
         gap: 200px;
     }
     .school-style {
-        /* margin-top: 0px; */
-        margin-left: 45px;
+        display: grid;
+        place-items: center;  /* Centers both horizontally & vertically */
+        /* height: 100vh; */
     }
 }

@@ -62,7 +62,7 @@
 }
 .Facilities-healthy-canteen-h3 {
     font-family: 'Pacifico', cursive;
-    color: yellow;
+    color: #ffc107;
     /* font-size: 20p; */
 }
 .Facilities-positive-learning-h3 {
@@ -113,7 +113,7 @@
     color: white;
 }
 .Facilities-healthy-canteen:hover{
-    background-color: yellow;
+    background-color: #ffc107;
     color: white;
 }
 .Facilities-healthy-canteen:hover .Facilities-healthy-canteen-h3{
