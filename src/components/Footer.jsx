@@ -21,10 +21,10 @@ const Footer = () => {
             <p><FaPhoneAlt /> +012 345 67890</p>
             <p><FaEnvelope /> info@example.com</p>
             <div className="d-flex gap-2 mt-3">
-              <a href="#" className="text-white p-2 bg-secondary rounded-circle"><FaTwitter /></a>
-              <a href="#" className="text-white p-2 bg-secondary rounded-circle"><FaFacebookF /></a>
-              <a href="#" className="text-white p-2 bg-secondary rounded-circle"><FaYoutube /></a>
-              <a href="#" className="text-white p-2 bg-secondary rounded-circle"><FaLinkedinIn /></a>
+              <a href="#" className="text-white p-2 secondary rounded-circle"><FaTwitter /></a>
+              <a href="#" className="text-white p-2 secondary rounded-circle"><FaFacebookF /></a>
+              <a href="#" className="text-white p-2 secondary rounded-circle"><FaYoutube /></a>
+              <a href="#" className="text-white p-2 secondary rounded-circle"><FaLinkedinIn /></a>
             </div>
           </Col>
 
@@ -41,7 +41,7 @@ const Footer = () => {
           </Col>
 
           {/* Photo Gallery */}
-          <Col md={3}>
+          <Col md={3} className="Photo-Gallery">
             <h5 className="mb-3">Photo Gallery</h5>
             <Row className="g-2">
               <Col xs={4}><img src={classes1} alt="Gallery" className="img-fluid rounded" /></Col>

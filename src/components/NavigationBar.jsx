@@ -24,13 +24,12 @@ function NavigationBar() {
             <Nav.Link as={Link} to="/classes" className="home">Classes</Nav.Link>
             
             {/* Dropdown Menu */}
-            <NavDropdown title="Page" id="page-dropdown" className="home">
+            <NavDropdown title="Page" id="page-dropdown">
               <NavDropdown.Item as={Link} to="/page">School Facilities</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/page">School Teacher</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/page">Become A Teacher</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/page">Make Appointment</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="page">Testimonial</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/error">406 Error</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link as={Link} to="/contact" className="home">Contact Us</Nav.Link>

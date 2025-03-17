@@ -93,7 +93,7 @@
 @media screen and (max-width: 600px) {
     .Learn-flex {
         flex-direction: column;
-        gap: 20px;
+        gap: 50px;
     }
     .learn-h1 {
         font-size: 20px;
@@ -123,8 +123,16 @@
         margin: 0 1%;
         gap: 0;
     }
+    .mm {
+        margin-top: 10px;
+    }
+    .learn-h6 {
+        font-size: 15px;
+        line-height: 7px;
+    }
     .learn-flex-2 {
         gap: 5px;
+        align-items: center;
     }
     .learn-pp {
         font-size: 12px;

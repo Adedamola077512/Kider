@@ -120,22 +120,23 @@
  .carousel-caption {
     /* font-size: 25px; */
     top: 40%;
-    left: 55%;
+    left: 53%;
     /* margin-bottom: 0px; */
      /* Adjust font size for smaller screens */
   }
   .content-p {
-    font-size: 13px;
+    font-size: 9px;
+    font-weight: 500;
     /* margin-bottom: 10px; */
   }
  .content {
-    font-size: 29px; /* Adjust font size for smaller screens */
+    font-size: 25px; /* Adjust font size for smaller screens */
   }
   .header-btn {
     width: 150px;
     height: 40px;
     font-size: 15px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   .header-btnn {
     width: 150px;

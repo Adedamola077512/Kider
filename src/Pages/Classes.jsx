@@ -7,7 +7,9 @@ const Classes = () => {
     <div>
       <SchoolClasses />
       <Appointment />
-      <OurClients />
+      <div style={{marginTop: "250px"}}>
+        <OurClients />
+      </div>
     </div>
   )
 }

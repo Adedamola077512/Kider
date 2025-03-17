@@ -11,6 +11,13 @@
     font: bold;
     font-weight: 500;
 }
+#page-dropdown{
+    text-decoration: none;
+    color: black ;
+    font-size: 15px;
+    font: bold;
+    font-weight: 500;
+}
 .navbar-nav {
   gap: 40px;
   text-decoration: none;

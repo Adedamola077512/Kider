@@ -18,9 +18,9 @@ const LearnMore = () => {
                     <button className='learn-btn'>Read More</button>
                     <div className='learn-flex-2'>
                         <img src={user} alt="" className='img3'/>
-                        <div>
-                        <h6 className='learn-h6'>John Doe</h6>
-                        <p className='learn-pp'>CEO & Founder</p>
+                        <div className='mm'>
+                          <h6 className='learn-h6'>John Doe</h6>
+                          <p className='learn-pp'>CEO & Founder</p>
                         </div>
                     </div>
                 </div>

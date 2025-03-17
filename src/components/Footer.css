@@ -8,6 +8,12 @@
     height: 50px;
     margin-top: 10px;
 }
+.secondary  {
+    border: 1px solid white;
+}
+.Photo-Gallery {
+    padding-bottom: 15px;
+}
 @media screen and (max-width: 768px) {
     .sign-up {
         margin-top: 0;
