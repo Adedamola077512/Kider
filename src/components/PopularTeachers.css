@@ -110,6 +110,8 @@
         border-radius: 50%;
         position: absolute;
         top: 765cap;
+        bottom: 0%;
+        display: none;
         left: 60%;
         background-color: white;
         transform: translateX(-50%);
@@ -122,8 +124,10 @@
         border-radius: 50%;
         position: absolute;
         top: 801cap;
+        bottom: 0%;
         left: 60%;
         background-color: white;
+        display: none;
         /* transform: translateX(-60%); */
     }
     .teacher-info2 {
@@ -134,7 +138,8 @@
         border-radius: 50%;
         position: absolute;
         top: 838cap;
-        position: fixed;
+        display: none;
+        /* position: fixed; */
         left: 60%;
         background-color: white;
         transform: translateX(-50%);

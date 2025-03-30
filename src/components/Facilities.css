@@ -30,7 +30,7 @@
 .FaHouseUser {
     background-color: rgb(243, 243, 224); /* Fully opaque */
     height: 100px;
-    color: yellow;
+    color: #ffc107;
     padding-top: 25px;
     width: 100px;
     margin: auto;
@@ -120,7 +120,7 @@
     color: white;
 }
 .FaHouseUser:hover{
-    background-color: yellow;
+    background-color: #ffc107;
     color: white;
 }
 .FaChalkboardTeacher:hover{
