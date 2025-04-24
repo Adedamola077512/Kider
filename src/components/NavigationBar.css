@@ -9,11 +9,27 @@
     color: black;
     font-size: 15px;
     font: bold;
+    margin: 7px 0;
+    font-weight: 500;
+}
+.home:hover {
+    text-decoration: none;
+    color: #FE5D37;
+    font-size: 15px;
+    font: bold;
+    margin: 7px 0;
     font-weight: 500;
 }
 #page-dropdown{
     text-decoration: none;
     color: black ;
+    font-size: 15px;
+    font: bold;
+    font-weight: 500;
+}
+#page-dropdown:hover {
+    text-decoration: none;
+    color: #FE5D37;
     font-size: 15px;
     font: bold;
     font-weight: 500;
@@ -28,6 +44,13 @@
   font-weight: 700;
   font-family: 'Lobster', cursive;
 
+}
+.Kider:hover {
+  text-decoration: none;
+  color: #FE5D37;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Lobster', cursive;
 }
 /* General Button Styling */
 .wat {

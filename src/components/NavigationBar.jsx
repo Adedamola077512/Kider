@@ -19,20 +19,20 @@ function NavigationBar() {
         <Navbar.Collapse id="navbar-nav" className="justify-content-center">
           <Nav className="mx-auto text-center" data-aos="fade-up">
             {/* Navigation Links */}
-            <Nav.Link as={Link} to="/" className="home" id="line">Home</Nav.Link>
-            <Nav.Link as={Link} to="/about" className="home">About Us</Nav.Link>
-            <Nav.Link as={Link} to="/classes" className="home">Classes</Nav.Link>
+            <Link to="/" className="home" id="line">Home</Link>
+            <Link to="/about" className="home">About Us</Link>
+            <Link to="/classes" className="home">Classes</Link>
             
             {/* Dropdown Menu */}
             <NavDropdown title="Page" id="page-dropdown">
-              <NavDropdown.Item as={Link} to="/page">School Facilities</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/page">School Teacher</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/page">Become A Teacher</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/page">Make Appointment</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="page">Testimonial</NavDropdown.Item>
+              <NavDropdown.Item to="/page">School Facilities</NavDropdown.Item>
+              <NavDropdown.Item to="/page">School Teacher</NavDropdown.Item>
+              <NavDropdown.Item to="/page">Become A Teacher</NavDropdown.Item>
+              <NavDropdown.Item to="/page">Make Appointment</NavDropdown.Item>
+              <NavDropdown.Item to="page">Testimonial</NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link as={Link} to="/contact" className="home">Contact Us</Nav.Link>
+            <Link to="/contact" className="home">Contact Us</Link>
           </Nav>
 
           {/* Sign-Up Button */}
