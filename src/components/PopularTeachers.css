@@ -35,7 +35,7 @@
     justify-items: center;
     border-radius: 50%;
     position: absolute;
-    bottom: -735%;
+    bottom: -690%;
     left: 25%;
     background-color: white;
     transform: translateX(-50%);
@@ -48,8 +48,8 @@
     justify-items: center;
     border-radius: 50%;
     position: absolute;
-    bottom: -735%;
-    left: 54%;
+    bottom: -690%;
+    left: 58%;
     background-color: white;
     transform: translateX(-50%);
 }
@@ -61,7 +61,7 @@
     justify-items: center;
     border-radius: 50%;
     position: absolute;
-    bottom: -735%;
+    bottom: -690%;
     left: 85%;
     background-color: white;
     transform: translateX(-50%);
@@ -109,7 +109,7 @@
         justify-items: center;
         border-radius: 50%;
         position: absolute;
-        top: 765cap;
+        top: 760cap;
         bottom: 0%;
         display: none;
         left: 60%;
